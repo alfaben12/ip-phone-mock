@@ -19,7 +19,7 @@
     "endpoint": "/get-loops-profile",
     "method": "POST",
     "data": {
-      "fullname": "Alfaben Doe",
+      "fullname": "Doe Alfaben",
       "username": "@alfaben12",
       "avatar": "https://assetsio.gnwcdn.com/gta-online-rockstar-newswire-image-character-in-warehouse.jpg",
       "cover": "https://images.wallpapershq.com/wallpapers/1400/thumbnail_600x1066.webp",
