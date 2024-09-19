@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "googleapis": "^126.0.1",
+    "prettier-sql": "^5.1.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "phone-mock",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfaben12/phone-mock.git"
+  },
+  "author": "Thariq Alfa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfaben12/phone-mock/issues"
+  },
+  "homepage": "https://github.com/alfaben12/phone-mock#readme"
+}
