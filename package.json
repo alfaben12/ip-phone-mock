@@ -5,12 +5,12 @@
     "prettier-sql": "^5.1.1"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "name": "phone-mock",
   "description": "",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alfaben12/phone-mock.git"
