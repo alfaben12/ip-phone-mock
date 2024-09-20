@@ -95,85 +95,85 @@
         {
           "total": 500,
           "created_at": "28 May 2024",
-          "label": "TOPUP",
+          "type": "CREDIT",
           "desc": "Buy from store"
         },
         {
           "total": 1000,
           "created_at": "25 May 2024",
-          "label": "TOPUP",
+          "type": "CREDIT",
           "desc": "Buy from online"
         },
         {
           "total": 1500,
           "created_at": "21 May 2024",
-          "label": "TOPUP",
+          "type": "CREDIT",
           "desc": "Buy from store"
         },
         {
           "total": 500,
           "created_at": "28 May 2024",
-          "label": "TOPUP",
+          "type": "CREDIT",
           "desc": "Buy from store"
         },
         {
           "total": 1000,
           "created_at": "25 May 2024",
-          "label": "TOPUP",
+          "type": "CREDIT",
           "desc": "Buy from online"
         },
         {
           "total": 1000,
           "created_at": "25 May 2024",
-          "label": "TOPUP",
-          "desc": "Buy from online"
-        },
-        {
-          "total": 1500,
-          "created_at": "21 May 2024",
-          "label": "TOPUP",
-          "desc": "Buy from store"
-        },
-        {
-          "total": 500,
-          "created_at": "28 May 2024",
-          "label": "TOPUP",
-          "desc": "Buy from store"
-        },
-        {
-          "total": 1000,
-          "created_at": "25 May 2024",
-          "label": "TOPUP",
+          "type": "CREDIT",
           "desc": "Buy from online"
         },
         {
           "total": 1500,
           "created_at": "21 May 2024",
-          "label": "TOPUP",
+          "type": "CREDIT",
           "desc": "Buy from store"
         },
         {
           "total": 500,
           "created_at": "28 May 2024",
-          "label": "TOPUP",
+          "type": "CREDIT",
           "desc": "Buy from store"
         },
         {
           "total": 1000,
           "created_at": "25 May 2024",
-          "label": "TOPUP",
+          "type": "CREDIT",
           "desc": "Buy from online"
         },
         {
           "total": 1500,
           "created_at": "21 May 2024",
-          "label": "TOPUP",
+          "type": "CREDIT",
           "desc": "Buy from store"
         },
         {
           "total": 500,
           "created_at": "28 May 2024",
-          "label": "TOPUP",
+          "type": "CREDIT",
+          "desc": "Buy from store"
+        },
+        {
+          "total": 1000,
+          "created_at": "25 May 2024",
+          "type": "CREDIT",
+          "desc": "Buy from online"
+        },
+        {
+          "total": 1500,
+          "created_at": "21 May 2024",
+          "type": "CREDIT",
+          "desc": "Buy from store"
+        },
+        {
+          "total": 500,
+          "created_at": "28 May 2024",
+          "type": "CREDIT",
           "desc": "Buy from store"
         }
       ],
