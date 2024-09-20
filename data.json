@@ -7,20 +7,19 @@
       "citizenid": "XXX123",
       "phone": "085123876",
       "avatar": "https://assetsio.gnwcdn.com/gta-online-rockstar-newswire-image-character-in-warehouse.jpg",
-      "wallpaper": "https://w0.peakpx.com/wallpaper/163/205/HD-wallpaper-street-fivem-gta-gta-v-roleplay-thumbnail.jpg",
+      "wallpaper": "https://images.wallpapershq.com/wallpapers/1400/thumbnail_600x1066.webp",
       "unread_message_service": 9,
       "unread_message": 10,
       "is_anonim": true,
       "is_donot_disturb": true,
-      "frame": "3.svg",
-      "active_loops_userid": 0
+      "frame": "3.svg"
     }
   },
   {
     "endpoint": "/get-loops-profile",
     "method": "POST",
     "data": {
-      "fullname": "Doe Alfaben X",
+      "fullname": "Doe Alfaben",
       "username": "@alfaben12",
       "avatar": "https://assetsio.gnwcdn.com/gta-online-rockstar-newswire-image-character-in-warehouse.jpg",
       "cover": "https://images.wallpapershq.com/wallpapers/1400/thumbnail_600x1066.webp",
@@ -94,56 +93,86 @@
         {
           "total": 500,
           "created_at": "28 May 2024",
-          "type": "CREDIT",
+          "label": "TOPUP",
           "desc": "Buy from store"
         },
         {
           "total": 1000,
           "created_at": "25 May 2024",
-          "type": "CREDIT",
+          "label": "TOPUP",
           "desc": "Buy from online"
         },
         {
           "total": 1500,
           "created_at": "21 May 2024",
-          "type": "CREDIT",
+          "label": "TOPUP",
           "desc": "Buy from store"
         },
         {
           "total": 500,
           "created_at": "28 May 2024",
-          "type": "CREDIT",
+          "label": "TOPUP",
           "desc": "Buy from store"
         },
         {
           "total": 1000,
           "created_at": "25 May 2024",
-          "type": "CREDIT",
+          "label": "TOPUP",
           "desc": "Buy from online"
         },
         {
           "total": 1000,
           "created_at": "25 May 2024",
-          "type": "CREDIT",
+          "label": "TOPUP",
           "desc": "Buy from online"
         },
         {
           "total": 1500,
           "created_at": "21 May 2024",
-          "type": "CREDIT",
+          "label": "TOPUP",
           "desc": "Buy from store"
         },
         {
           "total": 500,
           "created_at": "28 May 2024",
-          "type": "CREDIT",
+          "label": "TOPUP",
           "desc": "Buy from store"
         },
         {
           "total": 1000,
           "created_at": "25 May 2024",
-          "type": "CREDIT",
+          "label": "TOPUP",
           "desc": "Buy from online"
+        },
+        {
+          "total": 1500,
+          "created_at": "21 May 2024",
+          "label": "TOPUP",
+          "desc": "Buy from store"
+        },
+        {
+          "total": 500,
+          "created_at": "28 May 2024",
+          "label": "TOPUP",
+          "desc": "Buy from store"
+        },
+        {
+          "total": 1000,
+          "created_at": "25 May 2024",
+          "label": "TOPUP",
+          "desc": "Buy from online"
+        },
+        {
+          "total": 1500,
+          "created_at": "21 May 2024",
+          "label": "TOPUP",
+          "desc": "Buy from store"
+        },
+        {
+          "total": 500,
+          "created_at": "28 May 2024",
+          "label": "TOPUP",
+          "desc": "Buy from store"
         }
       ],
       "group_usage": [
@@ -232,6 +261,75 @@
           "total": 5,
           "created_at": "25 May 2024",
           "label": "Chatting"
+        }
+      ]
+    }
+  },
+  {
+    "endpoint": "/ get-loops-profile",
+    "method": "POST",
+    "data": {
+      "fullname": "Doe Alfaben",
+      "username": "@alfaben12",
+      "avatar": "https://assetsio.gnwcdn.com/gta-online-rockstar-newswire-image-character-in-warehouse.jpg",
+      "cover": "https://images.wallpapershq.com/wallpapers/1400/thumbnail_600x1066.webp",
+      "bio": "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.",
+      "join_at": "12-05-2024",
+      "is_verified": true,
+      "is_allow_message": false,
+      "phone_number": "086238213",
+      "tweets": [
+        {
+          "tweet": "Lorem ipsum may be used as a placeholder before the final copy is available.",
+          "avatar": "https://loremflickr.com/250/250?lock=4478952714272768",
+          "media": "https://hypeabis.id/assets/content/2023082110534000000035220933312158119057500441254953557429043272n.jpg",
+          "name": "Garry Bayer IV",
+          "username": "@dr.ad34",
+          "created_at": "Mon Jun 03 2024",
+          "repost": 10,
+          "comment": 10
+        },
+        {
+          "tweet": "Defaeco tepidus damnatio desolo totam ager. Aer strues bis. Incidunt agnitio aggredior demulceo.\nCorrumpo decretum acsi voco clam curiositas pax vorax. Abutor facere cinis titulus accendo tamisium ducimus terebro modi vigilo. Socius vitium unus dicta venustas cognatus xiphias caterva ars.\nCauda depopulo hic absorbeo absorbeo depraedor. Terebro sunt aurum paulatim sufficio coerceo demonstro eligendi totam sursum. Coadunatio claro apud cribro neque appositus aranea.",
+          "avatar": "",
+          "media": "",
+          "name": "Shannon Kling",
+          "username": "@lionel",
+          "created_at": "Sat Mar 04 2023",
+          "repost": 10,
+          "comment": 10
+        },
+        {
+          "tweet": "catena",
+          "avatar": "https://loremflickr.com/250/250?lock=1767291075166208",
+          "media": "https://loremflickr.com/444/250?lock=6134478479032320",
+          "name": "Lois Ratke II",
+          "username": "@malcolm",
+          "created_at": "Sat Jan 06 2024",
+          "repost": 10,
+          "comment": 10
+        }
+      ],
+      "replies": [
+        {
+          "tweet": "Defaeco tepidus damnatio desolo totam ager. Aer strues bis. Incidunt agnitio aggredior demulceo.\nCorrumpo decretum acsi voco clam curiositas pax vorax. Abutor facere cinis titulus accendo tamisium ducimus terebro modi vigilo. Socius vitium unus dicta venustas cognatus xiphias caterva ars.\nCauda depopulo hic absorbeo absorbeo depraedor. Terebro sunt aurum paulatim sufficio coerceo demonstro eligendi totam sursum. Coadunatio claro apud cribro neque appositus aranea.",
+          "avatar": "",
+          "media": "",
+          "name": "Shannon Kling",
+          "username": "@lionel",
+          "created_at": "Sat Mar 04 2023",
+          "repost": 10,
+          "comment": 10
+        },
+        {
+          "tweet": "Iste dignissimos vester degenero umquam adflicto suscipit ventito astrum. Textilis eligendi virgo dedecor dedecor. Tripudio tergum arca termes vestigium utpote modi aqua tyrannus.\nVestigium pectus tempore desino tunc vir dedico velociter volo pecus. Teres vos curia cetera tonsor ancilla carcer attollo. Libero aeternus minus summa.\nCorreptius conscendo minima cena non solvo. Iste cohaero aperte. Vel spargo videlicet tyrannus volup vae beneficium cimentarius.",
+          "avatar": "https://loremflickr.com/250/250?lock=3600072270938112",
+          "media": "",
+          "name": "Chris Crist",
+          "username": "@dr.",
+          "created_at": "Sun Dec 11 2022",
+          "repost": 10,
+          "comment": 10
         }
       ]
     }
