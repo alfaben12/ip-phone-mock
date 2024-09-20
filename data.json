@@ -269,15 +269,17 @@
     "endpoint": "/ get-loops-profile",
     "method": "POST",
     "data": {
-      "fullname": "Doe Alfaben",
-      "username": "@alfaben12",
-      "avatar": "https://assetsio.gnwcdn.com/gta-online-rockstar-newswire-image-character-in-warehouse.jpg",
-      "cover": "https://images.wallpapershq.com/wallpapers/1400/thumbnail_600x1066.webp",
-      "bio": "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.",
-      "join_at": "12-05-2024",
-      "is_verified": true,
-      "is_allow_message": false,
-      "phone_number": "086238213",
+      "profile": {
+        "fullname": "Alfaben Doe",
+        "username": "@alfaben12",
+        "avatar": "https://assetsio.gnwcdn.com/gta-online-rockstar-newswire-image-character-in-warehouse.jpg",
+        "cover": "https://images.wallpapershq.com/wallpapers/1400/thumbnail_600x1066.webp",
+        "bio": "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.",
+        "join_at": "12-05-2024",
+        "is_verified": true,
+        "is_allow_message": false,
+        "phone_number": "086238213"
+      },
       "tweets": [
         {
           "tweet": "Lorem ipsum may be used as a placeholder before the final copy is available.",
