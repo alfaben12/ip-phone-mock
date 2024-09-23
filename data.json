@@ -12,7 +12,10 @@
       "unread_message": 10,
       "is_anonim": true,
       "is_donot_disturb": true,
-      "frame": "3.svg"
+      "frame": "3.svg",
+      "job": {
+        "name" : "reporter"
+      }
     }
   },
   {
