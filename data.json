@@ -13,6 +13,7 @@
       "is_anonim": true,
       "is_donot_disturb": true,
       "frame": "3.svg",
+      "phone_height": 610,
       "job": {
         "name" : "reporter"
       }
