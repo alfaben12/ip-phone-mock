@@ -1,274 +1,209 @@
 [
   {
-    "endpoint": "/get-profile",
+    "endpoint": "/get-contacts",
     "method": "POST",
-    "data": {
-      "name": "Alfaben Doe",
-      "citizenid": "XXX123",
-      "phone": "085123876",
-      "avatar": "https://assetsio.gnwcdn.com/gta-online-rockstar-newswire-image-character-in-warehouse.jpg",
-      "wallpaper": "https://images.wallpapershq.com/wallpapers/1400/thumbnail_600x1066.webp",
-      "unread_message_service": 9,
-      "unread_message": 10,
-      "is_anonim": true,
-      "is_donot_disturb": true,
-      "frame": "3.svg",
-      "phone_height": 610,
-      "job": {
-        "name" : "reporter"
-      }
-    }
-  },
-  {
-    "endpoint": "/get-loops-profile",
-    "method": "POST",
-    "data": {
-      "profile": {
-        "fullname": "Alfaben Doe",
-        "username": "@alfaben12",
-        "avatar": "https://assetsio.gnwcdn.com/gta-online-rockstar-newswire-image-character-in-warehouse.jpg",
-        "cover": "https://images.wallpapershq.com/wallpapers/1400/thumbnail_600x1066.webp",
-        "bio": "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.",
-        "join_at": "12-05-2024",
-        "is_verified": true,
-        "is_allow_message": false,
-        "phone_number": "086238213"
+    "data": [
+      {
+        "fullname": "John Doe",
+        "number": "+1234567890",
+        "createdAt": "2024-12-01T10:00:00Z",
+        "avatar": "https://example.com/avatar1.jpg",
+        "note": "Met at conference.",
+        "company": "TechCorp",
+        "email": "johndoe@techcorp.com"
       },
-      "tweets": [
-        {
-          "tweet": "Lorem ipsum may be used as a placeholder before the final copy is available.",
-          "avatar": "https://loremflickr.com/250/250?lock=4478952714272768",
-          "media": "https://hypeabis.id/assets/content/2023082110534000000035220933312158119057500441254953557429043272n.jpg",
-          "name": "Garry Bayer IV",
-          "username": "@dr.ad34",
-          "created_at": "Mon Jun 03 2024",
-          "repost": 10,
-          "comment": 10
-        },
-        {
-          "tweet": "Defaeco tepidus damnatio desolo totam ager. Aer strues bis. Incidunt agnitio aggredior demulceo.\nCorrumpo decretum acsi voco clam curiositas pax vorax. Abutor facere cinis titulus accendo tamisium ducimus terebro modi vigilo. Socius vitium unus dicta venustas cognatus xiphias caterva ars.\nCauda depopulo hic absorbeo absorbeo depraedor. Terebro sunt aurum paulatim sufficio coerceo demonstro eligendi totam sursum. Coadunatio claro apud cribro neque appositus aranea.",
-          "avatar": "",
-          "media": "",
-          "name": "Shannon Kling",
-          "username": "@lionel",
-          "created_at": "Sat Mar 04 2023",
-          "repost": 10,
-          "comment": 10
-        },
-        {
-          "tweet": "catena",
-          "avatar": "https://loremflickr.com/250/250?lock=1767291075166208",
-          "media": "https://loremflickr.com/444/250?lock=6134478479032320",
-          "name": "Lois Ratke II",
-          "username": "@malcolm",
-          "created_at": "Sat Jan 06 2024",
-          "repost": 10,
-          "comment": 10
-        }
-      ],
-      "replies": [
-        {
-          "tweet": "Defaeco tepidus damnatio desolo totam ager. Aer strues bis. Incidunt agnitio aggredior demulceo.\nCorrumpo decretum acsi voco clam curiositas pax vorax. Abutor facere cinis titulus accendo tamisium ducimus terebro modi vigilo. Socius vitium unus dicta venustas cognatus xiphias caterva ars.\nCauda depopulo hic absorbeo absorbeo depraedor. Terebro sunt aurum paulatim sufficio coerceo demonstro eligendi totam sursum. Coadunatio claro apud cribro neque appositus aranea.",
-          "avatar": "",
-          "media": "",
-          "name": "Shannon Kling",
-          "username": "@lionel",
-          "created_at": "Sat Mar 04 2023",
-          "repost": 10,
-          "comment": 10
-        },
-        {
-          "tweet": "Iste dignissimos vester degenero umquam adflicto suscipit ventito astrum. Textilis eligendi virgo dedecor dedecor. Tripudio tergum arca termes vestigium utpote modi aqua tyrannus.\nVestigium pectus tempore desino tunc vir dedico velociter volo pecus. Teres vos curia cetera tonsor ancilla carcer attollo. Libero aeternus minus summa.\nCorreptius conscendo minima cena non solvo. Iste cohaero aperte. Vel spargo videlicet tyrannus volup vae beneficium cimentarius.",
-          "avatar": "https://loremflickr.com/250/250?lock=3600072270938112",
-          "media": "",
-          "name": "Chris Crist",
-          "username": "@dr.",
-          "created_at": "Sun Dec 11 2022",
-          "repost": 10,
-          "comment": 10
-        }
-      ]
-    }
+      {
+        "fullname": "Jane Smith",
+        "number": "+0987654321",
+        "createdAt": "2024-12-02T14:30:00Z",
+        "avatar": "https://example.com/avatar2.jpg",
+        "note": "Friend from school.",
+        "company": "Innovative Solutions",
+        "email": "janesmith@innovativesolutions.com"
+      },
+      {
+        "fullname": "Alice Johnson",
+        "number": "+1122334455",
+        "createdAt": "2024-12-03T09:15:00Z",
+        "avatar": "https://example.com/avatar3.jpg",
+        "note": "Colleague at work.",
+        "company": "SoftTech Ltd.",
+        "email": "alice.johnson@softtech.com"
+      },
+      {
+        "fullname": "Bob Lee",
+        "number": "+2233445566",
+        "createdAt": "2024-12-04T16:45:00Z",
+        "avatar": "https://example.com/avatar4.jpg",
+        "note": "Met at networking event.",
+        "company": "DesignPro",
+        "email": "boblee@designpro.com"
+      },
+      {
+        "fullname": "Charlie Brown",
+        "number": "+3344556677",
+        "createdAt": "2024-12-05T11:20:00Z",
+        "avatar": "https://example.com/avatar5.jpg",
+        "note": "Shared interest in tech.",
+        "company": "Tech Innovations",
+        "email": "charlie.brown@techinnovations.com"
+      },
+      {
+        "fullname": "David Wilson",
+        "number": "+4455667788",
+        "createdAt": "2024-12-06T12:00:00Z",
+        "avatar": "https://example.com/avatar6.jpg",
+        "note": "Old neighbor.",
+        "company": "Wilson Group",
+        "email": "davidwilson@wilsongroup.com"
+      },
+      {
+        "fullname": "Eva Green",
+        "number": "+5566778899",
+        "createdAt": "2024-12-07T10:30:00Z",
+        "avatar": "https://example.com/avatar7.jpg",
+        "note": "Met at the gym.",
+        "company": "HealthPlus",
+        "email": "evagreen@healthplus.com"
+      },
+      {
+        "fullname": "Frank Moore",
+        "number": "+6677889900",
+        "createdAt": "2024-12-08T08:45:00Z",
+        "avatar": "https://example.com/avatar8.jpg",
+        "note": "Childhood friend.",
+        "company": "Moore Enterprises",
+        "email": "frankmoore@mooreenterprises.com"
+      },
+      {
+        "fullname": "Grace Lee",
+        "number": "+7788990011",
+        "createdAt": "2024-12-09T07:20:00Z",
+        "avatar": "https://example.com/avatar9.jpg",
+        "note": "Work acquaintance.",
+        "company": "GreenTech",
+        "email": "gracelee@greentech.com"
+      },
+      {
+        "fullname": "Henry King",
+        "number": "+8899001122",
+        "createdAt": "2024-12-10T15:55:00Z",
+        "avatar": "https://example.com/avatar10.jpg",
+        "note": "Met at a workshop.",
+        "company": "King Solutions",
+        "email": "henryking@kingsolutions.com"
+      },
+      {
+        "fullname": "Irene Scott",
+        "number": "+9900112233",
+        "createdAt": "2024-12-11T13:10:00Z",
+        "avatar": "https://example.com/avatar11.jpg",
+        "note": "Tech enthusiast.",
+        "company": "Innovative Ventures",
+        "email": "irenescott@innovativeventures.com"
+      },
+      {
+        "fullname": "Jack White",
+        "number": "+1231231234",
+        "createdAt": "2024-12-12T16:35:00Z",
+        "avatar": "https://example.com/avatar12.jpg",
+        "note": "Business partner.",
+        "company": "White & Co.",
+        "email": "jackwhite@whiteco.com"
+      },
+      {
+        "fullname": "Kathy Harris",
+        "number": "+2342342345",
+        "createdAt": "2024-12-13T14:50:00Z",
+        "avatar": "https://example.com/avatar13.jpg",
+        "note": "Met at a conference.",
+        "company": "Global Communications",
+        "email": "kathyharris@globalcommunications.com"
+      },
+      {
+        "fullname": "Liam Thompson",
+        "number": "+3453453456",
+        "createdAt": "2024-12-14T09:30:00Z",
+        "avatar": "https://example.com/avatar14.jpg",
+        "note": "Shared a project at work.",
+        "company": "Thompson Technologies",
+        "email": "liamthompson@thompsontech.com"
+      },
+      {
+        "fullname": "Mia Davis",
+        "number": "+4564564567",
+        "createdAt": "2024-12-15T10:05:00Z",
+        "avatar": "https://example.com/avatar15.jpg",
+        "note": "Classmate from university.",
+        "company": "Davis Consulting",
+        "email": "miadavis@davisconsulting.com"
+      },
+      {
+        "fullname": "Nathan Perez",
+        "number": "+5675675678",
+        "createdAt": "2024-12-16T12:40:00Z",
+        "avatar": "https://example.com/avatar16.jpg",
+        "note": "Networking contact.",
+        "company": "Perez Enterprises",
+        "email": "nathanperez@perezenterprises.com"
+      },
+      {
+        "fullname": "Olivia Evans",
+        "number": "+6786786789",
+        "createdAt": "2024-12-17T13:15:00Z",
+        "avatar": "https://example.com/avatar17.jpg",
+        "note": "Met at a meet-up.",
+        "company": "Evans Innovations",
+        "email": "oliviaevans@evansinnovations.com"
+      },
+      {
+        "fullname": "Paul Carter",
+        "number": "+7897897890",
+        "createdAt": "2024-12-18T10:50:00Z",
+        "avatar": "https://example.com/avatar18.jpg",
+        "note": "Friend from college.",
+        "company": "Carter Group",
+        "email": "paulcarter@cartergroup.com"
+      },
+      {
+        "fullname": "Quincy Adams",
+        "number": "+8908908901",
+        "createdAt": "2024-12-19T14:20:00Z",
+        "avatar": "https://example.com/avatar19.jpg",
+        "note": "Met through a mutual friend.",
+        "company": "Adams Networks",
+        "email": "quincyadams@adamsnetworks.com"
+      }
+    ]
   },
   {
-    "endpoint": "/get-internet-data",
+    "endpoint": "/share-contact",
+    "method": "POST",
+    "data": true
+  },
+  {
+    "endpoint": "/phone-start-call",
+    "method": "POST",
+    "data": true
+  },
+  {
+    "endpoint": "/phone-decline-call",
+    "method": "POST",
+    "data": true
+  },
+  {
+    "endpoint": "/phone-end-call",
+    "method": "POST",
+    "data": true
+  },
+  {
+    "endpoint": "/get-account",
     "method": "POST",
     "data": {
-      "balance": 9900,
-      "topup_histories": [
-        {
-          "total": 500,
-          "created_at": "28 May 2024",
-          "type": "CREDIT",
-          "desc": "Buy from store"
-        },
-        {
-          "total": 1000,
-          "created_at": "25 May 2024",
-          "type": "CREDIT",
-          "desc": "Buy from online"
-        },
-        {
-          "total": 1500,
-          "created_at": "21 May 2024",
-          "type": "CREDIT",
-          "desc": "Buy from store"
-        },
-        {
-          "total": 500,
-          "created_at": "28 May 2024",
-          "type": "CREDIT",
-          "desc": "Buy from store"
-        },
-        {
-          "total": 1000,
-          "created_at": "25 May 2024",
-          "type": "CREDIT",
-          "desc": "Buy from online"
-        },
-        {
-          "total": 1000,
-          "created_at": "25 May 2024",
-          "type": "CREDIT",
-          "desc": "Buy from online"
-        },
-        {
-          "total": 1500,
-          "created_at": "21 May 2024",
-          "type": "CREDIT",
-          "desc": "Buy from store"
-        },
-        {
-          "total": 500,
-          "created_at": "28 May 2024",
-          "type": "CREDIT",
-          "desc": "Buy from store"
-        },
-        {
-          "total": 1000,
-          "created_at": "25 May 2024",
-          "type": "CREDIT",
-          "desc": "Buy from online"
-        },
-        {
-          "total": 1500,
-          "created_at": "21 May 2024",
-          "type": "CREDIT",
-          "desc": "Buy from store"
-        },
-        {
-          "total": 500,
-          "created_at": "28 May 2024",
-          "type": "CREDIT",
-          "desc": "Buy from store"
-        },
-        {
-          "total": 1000,
-          "created_at": "25 May 2024",
-          "type": "CREDIT",
-          "desc": "Buy from online"
-        },
-        {
-          "total": 1500,
-          "created_at": "21 May 2024",
-          "type": "CREDIT",
-          "desc": "Buy from store"
-        },
-        {
-          "total": 500,
-          "created_at": "28 May 2024",
-          "type": "CREDIT",
-          "desc": "Buy from store"
-        }
-      ],
-      "group_usage": [
-        {
-          "app": "Phone",
-          "total": 1237
-        },
-        {
-          "app": "Loops",
-          "total": 162
-        },
-        {
-          "app": "Message",
-          "total": 50
-        },
-        {
-          "app": "Ads",
-          "total": 182
-        },
-        {
-          "app": "Houses",
-          "total": 50
-        },
-        {
-          "app": "Services",
-          "total": 87
-        }
-      ],
-      "usage_histories": [
-        {
-          "total": 100,
-          "created_at": "28 May 2024",
-          "label": "Phone"
-        },
-        {
-          "total": 50,
-          "created_at": "25 May 2024",
-          "label": "Phone"
-        },
-        {
-          "total": 5,
-          "created_at": "25 May 2024",
-          "label": "Chatting"
-        },
-        {
-          "total": 10,
-          "created_at": "25 May 2024",
-          "label": "News"
-        },
-        {
-          "total": 15,
-          "created_at": "25 May 2024",
-          "label": "Loops"
-        },
-        {
-          "total": 7,
-          "created_at": "25 May 2024",
-          "label": "Houses"
-        },
-        {
-          "total": 2,
-          "created_at": "25 May 2024",
-          "label": "Houses"
-        },
-        {
-          "total": 4,
-          "created_at": "25 May 2024",
-          "label": "Ads"
-        },
-        {
-          "total": 8,
-          "created_at": "25 May 2024",
-          "label": "Email"
-        },
-        {
-          "total": 8,
-          "created_at": "25 May 2024",
-          "label": "Wallet"
-        },
-        {
-          "total": 8,
-          "created_at": "25 May 2024",
-          "label": "Email"
-        },
-        {
-          "total": 5,
-          "created_at": "25 May 2024",
-          "label": "Chatting"
-        }
-      ]
+      "fullname": "Ben Sinclair",
+      "phone": "085123123",
+      "job": "Peternak",
+      "identifier": "steam:110000111c82523"
     }
   }
 ]
